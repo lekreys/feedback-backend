@@ -1,0 +1,23 @@
+# Ignore .env file
+.env
+
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environment folder (misalnya untuk venv atau env)
+venv/
+env/
+
+# Ignore .pytest_cache
+.pytest_cache/
+
+# Ignore PyCharm project files
+.idea/
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore FastAPI server's data (temporary)
+*.db
+*.sqlite3
